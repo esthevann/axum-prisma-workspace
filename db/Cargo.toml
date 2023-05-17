@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 serde = "1.0.163"
-prisma-client-rust = { git = "https://github.com/Brendonovich/prisma-client-rust", tag = "0.6.8", default-features = false, features = [{{ db }}] }
+prisma-client-rust = { git = "https://github.com/Brendonovich/prisma-client-rust", tag = "0.6.8", default-features = false, features = ["{{ db }}"] }

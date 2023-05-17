@@ -1,5 +1,5 @@
 datasource db {
-    provider = { { db }}
+    provider = "{{ db }}"
     url      = env("DATABASE_URL")
 }
  
