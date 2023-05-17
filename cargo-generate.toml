@@ -1,0 +1,5 @@
+[placeholders.db]
+type = "string"
+prompt = "What database to use?"
+choices = ["postgresql", "mysql", "sqlite", "mssql", "mongodb"]
+default = "postgresql"
